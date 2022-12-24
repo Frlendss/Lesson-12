@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1200px;
+  margin-left: 150px;
+  margin-top: 20px;
+  text-align: center;
+}
+.boxes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box1 {
+  margin-right: 40px;
+}
+.btn1 {
+  margin: 0 15px;
+  padding: 10px 20px;
+  border: none;
+  color: black;
+  background-color: rgb(114, 109, 109);
+  cursor: pointer;
+  border: none;
+  border-radius: 7px;
+}
+.btn1:hover {
+  background-color: rgb(128, 59, 76);
+  font-size: 15px;
+  transition: all 0.3s ease;
+}
+.box2 {
+  margin-right: 150px;
+}
+.box3 {
+  margin-right: 30px;
+}
+.img11 {
+  margin-right: 30px;
+}
+.box4 input {
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+.box4 input:hover {
+  background-color: rgb(128, 59, 76);
+  transition: all 0.3s ease;
+}
